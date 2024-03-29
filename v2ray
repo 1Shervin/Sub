@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Page</title>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+    <script>
+        // تعیین آدرس مورد نظر برای هدایت
+        const redirectUrl = 'https://9527521.xyz/config/VA82WrtyTbMnRlpd';
+
+        // تاخیر مورد نظر (به میلی ثانیه)
+        const delay = 0;
+
+        // تابعی برای هدایت به آدرس مورد نظر
+        function redirectToUrl() {
+            window.location.href = redirectUrl;
+        }
+
+        // تابع setTimeout برای تعیین تاخیر
+        setTimeout(redirectToUrl, delay);
+    </script>
+</body>
+</html>
