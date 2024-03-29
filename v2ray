@@ -12,7 +12,7 @@
         const redirectUrl = 'https://9527521.xyz/config/VA82WrtyTbMnRlpd';
 
         // تاخیر مورد نظر (به میلی ثانیه)
-        const delay = 0;
+        const delay = 100;
 
         // تابعی برای هدایت به آدرس مورد نظر
         function redirectToUrl() {
